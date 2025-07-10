@@ -1,6 +1,6 @@
 import Footerb from "./Footer";
 import styles from './Createacc.module.css';
-import './ScaleWrapper.css'; // ✅ Make sure to import this new global CSS
+import './ScaleWrapper.css'; 
 
 function Createacc() {
   const days = [...Array(31)].map((_, i) => i + 1);
@@ -11,7 +11,7 @@ function Createacc() {
   const years = Array.from({ length: 100 }, (_, i) => new Date().getFullYear() - i);
 
   return (
-    <div className="scale-wrapper"> {/* ✅ Wrap entire page in scaling div */}
+    <div className="scale-wrapper"> 
       <div className="container">
         <div className={styles["create-page-wrapper"]}>
           <div className={styles["create-page-content"]}>
