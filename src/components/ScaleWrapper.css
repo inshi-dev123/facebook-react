@@ -1,0 +1,12 @@
+@media (max-width: 480px) {
+  .scale-wrapper {
+    transform: scale(0.85); /* Shrinks entire page like Facebook */
+    transform-origin: top center;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+}
