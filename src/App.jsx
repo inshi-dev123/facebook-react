@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Left from './components/Left'
-import Login from './components/login'
+import Login from './components/Login'
 import Footerb from './components/Footer'
 import Createacc from './components/Create'
 import './components/Home.css';
